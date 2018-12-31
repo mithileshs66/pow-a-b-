@@ -1,0 +1,27 @@
+#include <iostream>
+#include<stdlib.h>
+#include<math.h>
+using namespace std;
+
+int main() {
+  long long  int t;
+    cin>>t;
+    while(t--)
+    {
+     long long   int a,b,k,d,i=1,c;
+        cin>>a>>b>>k;
+        d=pow(a,b);
+       while(i!=k)
+       {
+          
+          d=d/10;
+          i++;
+       }
+       c=d%10;
+     
+       
+           cout<<c<<endl;
+       
+    }
+	return 0;
+}
